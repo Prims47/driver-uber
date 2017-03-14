@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11029C8A1E82AC3C00E774F1 /* DriverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11029C891E82AC3C00E774F1 /* DriverTest.swift */; };
+		115C031A1E7878FE00914FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C03191E7878FE00914FC1 /* AppDelegate.swift */; };
+		115C031C1E7878FE00914FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C031B1E7878FE00914FC1 /* ViewController.swift */; };
+		115C031F1E7878FE00914FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C031D1E7878FE00914FC1 /* Main.storyboard */; };
+		115C03211E7878FE00914FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C03201E7878FE00914FC1 /* Assets.xcassets */; };
+		115C03241E7878FE00914FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C03221E7878FE00914FC1 /* LaunchScreen.storyboard */; };
+		115C033C1E788C5500914FC1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115C033B1E788C5500914FC1 /* MapKit.framework */; };
+		118213F31E79F81E0076CB46 /* ViewDriverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118213F21E79F81E0076CB46 /* ViewDriverInfo.swift */; };
+		1182A8B51E8BCDD800CD894E /* DriverMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182A8B41E8BCDD800CD894E /* DriverMKPointAnnotation.swift */; };
+		11D10A901E7C65F80066B127 /* Todo in Resources */ = {isa = PBXBuildFile; fileRef = 11D10A8F1E7C65F80066B127 /* Todo */; };
+		11E3C5931E7D58C00044BF54 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3C5921E7D58C00044BF54 /* Driver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115C032B1E7878FE00914FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115C030E1E7878FE00914FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115C03151E7878FE00914FC1;
+			remoteInfo = driverUber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11029C891E82AC3C00E774F1 /* DriverTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverTest.swift; sourceTree = "<group>"; };
+		115C03161E7878FE00914FC1 /* driverUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driverUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C03191E7878FE00914FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115C031B1E7878FE00914FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115C031E1E7878FE00914FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115C03201E7878FE00914FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115C03231E7878FE00914FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115C03251E7878FE00914FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115C032A1E7878FE00914FC1 /* driverUberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = driverUberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C03301E7878FE00914FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115C033B1E788C5500914FC1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		118213F21E79F81E0076CB46 /* ViewDriverInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDriverInfo.swift; sourceTree = "<group>"; };
+		1182A8B41E8BCDD800CD894E /* DriverMKPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverMKPointAnnotation.swift; sourceTree = "<group>"; };
+		11D10A8F1E7C65F80066B127 /* Todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Todo; sourceTree = "<group>"; };
+		11E3C5921E7D58C00044BF54 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115C03131E7878FE00914FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C033C1E788C5500914FC1 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C03271E7878FE00914FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11029C881E82AC2400E774F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11029C891E82AC3C00E774F1 /* DriverTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		115C030D1E7878FE00914FC1 = {
+			isa = PBXGroup;
+			children = (
+				115C03181E7878FE00914FC1 /* driverUber */,
+				115C032D1E7878FE00914FC1 /* driverUberTests */,
+				115C033A1E788C5500914FC1 /* Frameworks */,
+				115C03171E7878FE00914FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115C03171E7878FE00914FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115C03161E7878FE00914FC1 /* driverUber.app */,
+				115C032A1E7878FE00914FC1 /* driverUberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115C03181E7878FE00914FC1 /* driverUber */ = {
+			isa = PBXGroup;
+			children = (
+				115C03191E7878FE00914FC1 /* AppDelegate.swift */,
+				115C03201E7878FE00914FC1 /* Assets.xcassets */,
+				115C03391E78830F00914FC1 /* Controller */,
+				115C03251E7878FE00914FC1 /* Info.plist */,
+				115C03221E7878FE00914FC1 /* LaunchScreen.storyboard */,
+				115C031D1E7878FE00914FC1 /* Main.storyboard */,
+				1182A8B01E8BCBD400CD894E /* MapKit */,
+				11E3C5911E7D58B50044BF54 /* Model */,
+				11D10A8F1E7C65F80066B127 /* Todo */,
+				118213F11E79F7C80076CB46 /* View */,
+			);
+			path = driverUber;
+			sourceTree = "<group>";
+		};
+		115C032D1E7878FE00914FC1 /* driverUberTests */ = {
+			isa = PBXGroup;
+			children = (
+				11029C881E82AC2400E774F1 /* Model */,
+				115C03301E7878FE00914FC1 /* Info.plist */,
+			);
+			path = driverUberTests;
+			sourceTree = "<group>";
+		};
+		115C03391E78830F00914FC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				115C031B1E7878FE00914FC1 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		115C033A1E788C5500914FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115C033B1E788C5500914FC1 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118213F11E79F7C80076CB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				118213F21E79F81E0076CB46 /* ViewDriverInfo.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1182A8B01E8BCBD400CD894E /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				1182A8B31E8BCCBF00CD894E /* Annotation */,
+			);
+			name = MapKit;
+			sourceTree = "<group>";
+		};
+		1182A8B31E8BCCBF00CD894E /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				1182A8B41E8BCDD800CD894E /* DriverMKPointAnnotation.swift */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		11E3C5911E7D58B50044BF54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11E3C5921E7D58C00044BF54 /* Driver.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115C03151E7878FE00914FC1 /* driverUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C03331E7878FE00914FC1 /* Build configuration list for PBXNativeTarget "driverUber" */;
+			buildPhases = (
+				115C03121E7878FE00914FC1 /* Sources */,
+				115C03131E7878FE00914FC1 /* Frameworks */,
+				115C03141E7878FE00914FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = driverUber;
+			productName = driverUber;
+			productReference = 115C03161E7878FE00914FC1 /* driverUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115C03291E7878FE00914FC1 /* driverUberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C03361E7878FE00914FC1 /* Build configuration list for PBXNativeTarget "driverUberTests" */;
+			buildPhases = (
+				115C03261E7878FE00914FC1 /* Sources */,
+				115C03271E7878FE00914FC1 /* Frameworks */,
+				115C03281E7878FE00914FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115C032C1E7878FE00914FC1 /* PBXTargetDependency */,
+			);
+			name = driverUberTests;
+			productName = driverUberTests;
+			productReference = 115C032A1E7878FE00914FC1 /* driverUberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115C030E1E7878FE00914FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IlanB;
+				TargetAttributes = {
+					115C03151E7878FE00914FC1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2ZVLFR2ZZ7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					115C03291E7878FE00914FC1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2ZVLFR2ZZ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 115C03151E7878FE00914FC1;
+					};
+				};
+			};
+			buildConfigurationList = 115C03111E7878FE00914FC1 /* Build configuration list for PBXProject "driverUber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115C030D1E7878FE00914FC1;
+			productRefGroup = 115C03171E7878FE00914FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115C03151E7878FE00914FC1 /* driverUber */,
+				115C03291E7878FE00914FC1 /* driverUberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115C03141E7878FE00914FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C03241E7878FE00914FC1 /* LaunchScreen.storyboard in Resources */,
+				115C03211E7878FE00914FC1 /* Assets.xcassets in Resources */,
+				115C031F1E7878FE00914FC1 /* Main.storyboard in Resources */,
+				11D10A901E7C65F80066B127 /* Todo in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C03281E7878FE00914FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115C03121E7878FE00914FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182A8B51E8BCDD800CD894E /* DriverMKPointAnnotation.swift in Sources */,
+				118213F31E79F81E0076CB46 /* ViewDriverInfo.swift in Sources */,
+				115C031C1E7878FE00914FC1 /* ViewController.swift in Sources */,
+				115C031A1E7878FE00914FC1 /* AppDelegate.swift in Sources */,
+				11E3C5931E7D58C00044BF54 /* Driver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C03261E7878FE00914FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11029C8A1E82AC3C00E774F1 /* DriverTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115C032C1E7878FE00914FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115C03151E7878FE00914FC1 /* driverUber */;
+			targetProxy = 115C032B1E7878FE00914FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		115C031D1E7878FE00914FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115C031E1E7878FE00914FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115C03221E7878FE00914FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115C03231E7878FE00914FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115C03311E7878FE00914FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115C03321E7878FE00914FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115C03341E7878FE00914FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = driverUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilanbenhamou.driverUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		115C03351E7878FE00914FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = driverUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilanbenhamou.driverUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		115C03371E7878FE00914FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = driverUberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilanbenhamou.driverUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driverUber.app/driverUber";
+			};
+			name = Debug;
+		};
+		115C03381E7878FE00914FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ZVLFR2ZZ7;
+				INFOPLIST_FILE = driverUberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilanbenhamou.driverUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/driverUber.app/driverUber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115C03111E7878FE00914FC1 /* Build configuration list for PBXProject "driverUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C03311E7878FE00914FC1 /* Debug */,
+				115C03321E7878FE00914FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C03331E7878FE00914FC1 /* Build configuration list for PBXNativeTarget "driverUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C03341E7878FE00914FC1 /* Debug */,
+				115C03351E7878FE00914FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C03361E7878FE00914FC1 /* Build configuration list for PBXNativeTarget "driverUberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C03371E7878FE00914FC1 /* Debug */,
+				115C03381E7878FE00914FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115C030E1E7878FE00914FC1 /* Project object */;
+}

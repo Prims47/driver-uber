@@ -1,0 +1,9 @@
+Todo:
+
+- add a alert when gps quality is bad or network...
+- Dot blue change by a car model
+- Add alamofire
+- Add notification for request course
+- When accept updatelocation post gps info to api
+- draw a direction for take customer
+- estimate the time between distance

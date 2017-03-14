@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="driverUber" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4hp-Si-mwK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="driver_logo_uber" translatesAutoresizingMaskIntoConstraints="NO" id="lgD-xR-Xeb">
+                                <rect key="frame" x="134.5" y="20" width="51" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="E4n-mT-8HS"/>
+                                    <constraint firstAttribute="height" constant="57" id="kRn-St-1iK"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ib0-p2-eLc" customClass="ViewDriverInfo" customModule="driverUber" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="486" width="320" height="82"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="driver" translatesAutoresizingMaskIntoConstraints="NO" id="9uU-6i-dv0">
+                                        <rect key="frame" x="0.0" y="0.0" width="114" height="85"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="114" id="dfL-4a-17d"/>
+                                            <constraint firstAttribute="height" constant="85" id="yfc-Ck-eBa"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ILAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGN-em-tn3">
+                                        <rect key="frame" x="120" y="8" width="41" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_profile" translatesAutoresizingMaskIntoConstraints="NO" id="ZVL-0Z-ib9">
+                                        <rect key="frame" x="265" y="0.0" width="47" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="o8v-H6-0xb"/>
+                                            <constraint firstAttribute="width" constant="47" id="u6M-Wn-pjq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AB-123-XZ-92" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-BK-TAX">
+                                        <rect key="frame" x="235" y="62.5" width="77" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peugot 308" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3w-34-4oP">
+                                        <rect key="frame" x="243" y="31" width="69" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="1Nr-6W-C1Q"/>
+                                            <constraint firstAttribute="height" constant="21" id="OrE-ws-Uut"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="2qh-N5-Eif"/>
+                                    <constraint firstItem="9uU-6i-dv0" firstAttribute="top" secondItem="ib0-p2-eLc" secondAttribute="top" id="6oe-UB-wO0"/>
+                                    <constraint firstItem="P3w-34-4oP" firstAttribute="top" secondItem="ib0-p2-eLc" secondAttribute="top" constant="31" id="G7j-Uv-z7s"/>
+                                    <constraint firstAttribute="trailing" secondItem="Foc-BK-TAX" secondAttribute="trailing" constant="8" id="MHg-WI-1Ia"/>
+                                    <constraint firstItem="ZVL-0Z-ib9" firstAttribute="top" secondItem="ib0-p2-eLc" secondAttribute="top" id="O14-54-J8j"/>
+                                    <constraint firstItem="Foc-BK-TAX" firstAttribute="top" secondItem="P3w-34-4oP" secondAttribute="bottom" constant="10.5" id="WPe-EK-mfD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZVL-0Z-ib9" secondAttribute="trailing" constant="8" id="bGe-jF-fQ4"/>
+                                    <constraint firstAttribute="trailing" secondItem="P3w-34-4oP" secondAttribute="trailing" constant="8" id="eiT-Hp-tsM"/>
+                                    <constraint firstItem="9uU-6i-dv0" firstAttribute="leading" secondItem="ib0-p2-eLc" secondAttribute="leading" id="ssi-k4-Utq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="5" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbi-vV-3sw" customClass="ViewDriverInfo" customModule="driverUber" customModuleProvider="target">
+                                <rect key="frame" x="16" y="96" width="288" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disponible" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0q-fm-LjU">
+                                        <rect key="frame" x="12" y="12" width="81" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.13293393780000001" green="0.13293393780000001" blue="0.13293393780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="m0J-X1-Zoi">
+                                        <rect key="frame" x="224" y="8" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="thumbTintColor" red="0.74967616579999996" green="0.74967616579999996" blue="0.74967616579999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="activateLocation:" destination="BYZ-38-t0r" eventType="valueChanged" id="UXS-3y-4XK"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="n0q-fm-LjU" firstAttribute="top" secondItem="Mbi-vV-3sw" secondAttribute="top" constant="12" id="5kI-DV-954"/>
+                                    <constraint firstAttribute="trailing" secondItem="m0J-X1-Zoi" secondAttribute="trailing" constant="15" id="9aD-J6-VVl"/>
+                                    <constraint firstAttribute="height" constant="45" id="BjW-pa-9FT"/>
+                                    <constraint firstAttribute="width" constant="288" id="Q5V-fI-Qjn"/>
+                                    <constraint firstItem="n0q-fm-LjU" firstAttribute="leading" secondItem="Mbi-vV-3sw" secondAttribute="leading" constant="12" id="Ydv-dh-yCJ"/>
+                                    <constraint firstItem="m0J-X1-Zoi" firstAttribute="top" secondItem="Mbi-vV-3sw" secondAttribute="top" constant="8" id="o77-wR-gY0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="5" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lgD-xR-Xeb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="02z-fW-QId"/>
+                            <constraint firstAttribute="trailing" secondItem="ib0-p2-eLc" secondAttribute="trailing" id="312-uA-5qv"/>
+                            <constraint firstItem="ib0-p2-eLc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JrZ-4T-9WW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4hp-Si-mwK" secondAttribute="bottom" constant="-99" id="MQM-0B-0go"/>
+                            <constraint firstAttribute="trailing" secondItem="4hp-Si-mwK" secondAttribute="trailing" constant="-55" id="OLd-sg-M8X"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ib0-p2-eLc" secondAttribute="bottom" id="R9k-Oh-DwH"/>
+                            <constraint firstItem="lgD-xR-Xeb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SDC-iR-Aim"/>
+                            <constraint firstItem="4hp-Si-mwK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dlY-FL-wXS"/>
+                            <constraint firstItem="Mbi-vV-3sw" firstAttribute="top" secondItem="lgD-xR-Xeb" secondAttribute="bottom" constant="19" id="sSi-ST-4CD"/>
+                            <constraint firstItem="4hp-Si-mwK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yeA-6u-Xzg"/>
+                            <constraint firstItem="Mbi-vV-3sw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yp5-dx-Gke"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="isActivated" destination="m0J-X1-Zoi" id="fmg-0p-OSn"/>
+                        <outlet property="uiDriverCarImmat" destination="Foc-BK-TAX" id="76A-2O-DDR"/>
+                        <outlet property="uiDriverCarName" destination="P3w-34-4oP" id="pdp-nm-JT2"/>
+                        <outlet property="uiDriverName" destination="SGN-em-tn3" id="3S1-Hv-ZQD"/>
+                        <outlet property="uiMap" destination="4hp-Si-mwK" id="AtS-1i-sLw"/>
+                        <outlet property="viewDriverConstraint" destination="R9k-Oh-DwH" id="6lN-10-uNe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.875" y="36.971830985915496"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car_profile" width="209" height="99"/>
+        <image name="driver" width="444" height="333"/>
+        <image name="driver_logo_uber" width="509" height="512"/>
+    </resources>
+</document>
